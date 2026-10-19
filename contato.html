@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta
+      content="CasaViva, projeto demonstrativo de móveis e decoração"
+      name="description"
+    />
+    <title>Contato | CasaViva</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="wrap navin">
+        <a class="logo" href="index.html">casa<span>viva.</span></a
+        ><button aria-expanded="false" aria-label="Abrir menu" class="menu">
+          ☰
+        </button>
+        <nav aria-label="Navegação principal" class="links">
+          <a class="" href="index.html">Início</a
+          ><a class="" href="produtos.html">Produtos</a
+          ><a class="" href="ambientes.html">Ambientes</a
+          ><a class="active" href="contato.html">Contato</a
+          ><a class="btn" href="contato.html">Fale conosco ↗</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="wrap">
+        <section class="pagehero">
+          <span class="eyebrow">Vamos conversar</span>
+          <h1>Seu próximo espaço começa aqui.</h1>
+          <p>Envie uma mensagem de teste e veja a confirmação local.</p>
+        </section>
+        <section class="contact">
+          <div>
+            <h2>Uma casa para novas ideias.</h2>
+            <p>
+              A CasaViva é uma marca fictícia criada para demonstrar um site
+              institucional de móveis e decoração.
+            </p>
+            <div class="banner">
+              <div>
+                <strong>Atendimento demonstrativo</strong>
+                <p>
+                  Segunda a sexta, das 9h às 18h.<br />Não existe loja física
+                  nem atendimento real.
+                </p>
+              </div>
+            </div>
+          </div>
+          <form id="contactForm">
+            <label for="name">Seu nome</label
+            ><input
+              class="field"
+              id="name"
+              minlength="2"
+              placeholder="Como podemos chamar você?"
+              required=""
+            /><label for="email">E-mail</label
+            ><input
+              class="field"
+              id="email"
+              placeholder="voce@exemplo.com"
+              required=""
+              type="email"
+            /><label for="subject">Assunto</label
+            ><select class="field" id="subject" required="">
+              <option value="">Selecione</option>
+              <option>Produtos</option>
+              <option>Decoração</option>
+              <option>Outros</option></select
+            ><label for="message">Mensagem</label
+            ><textarea
+              class="field"
+              id="message"
+              minlength="10"
+              placeholder="Conte um pouco da sua ideia..."
+              required=""
+              rows="5"
+            ></textarea
+            ><button class="btn" type="submit">
+              Enviar mensagem de teste ↗
+            </button>
+            <p class="notice" id="feedback" role="status"></p>
+            <p class="muted">
+              Formulário demonstrativo. Nenhuma mensagem é enviada.
+            </p>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footergrid">
+          <div>
+            <a class="logo" href="index.html">casa<span>viva.</span></a>
+            <p>Design para viver melhor, todos os dias.</p>
+          </div>
+          <div>
+            <strong>Explore</strong>
+            <p>
+              <a href="produtos.html">Produtos</a> ·
+              <a href="ambientes.html">Ambientes</a> ·
+              <a href="contato.html">Contato</a>
+            </p>
+          </div>
+        </div>
+        <div class="footline">
+          <span>© 2026 CasaViva. Projeto fictício para portfólio.</span
+          ><a
+            href="https://github.com/JefersonAlvesrs"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Desenvolvido por Jeferson Alves ↗</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

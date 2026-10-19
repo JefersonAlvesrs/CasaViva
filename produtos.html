@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta
+      content="CasaViva, projeto demonstrativo de móveis e decoração"
+      name="description"
+    />
+    <title>Produtos | CasaViva</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="wrap navin">
+        <a class="logo" href="index.html">casa<span>viva.</span></a
+        ><button aria-expanded="false" aria-label="Abrir menu" class="menu">
+          ☰
+        </button>
+        <nav aria-label="Navegação principal" class="links">
+          <a class="" href="index.html">Início</a
+          ><a class="active" href="produtos.html">Produtos</a
+          ><a class="" href="ambientes.html">Ambientes</a
+          ><a class="" href="contato.html">Contato</a
+          ><a class="btn" href="contato.html">Fale conosco ↗</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="wrap">
+        <section class="pagehero">
+          <span class="eyebrow">Nossa coleção</span>
+          <h1>Design para o seu dia a dia.</h1>
+          <p>Catálogo ilustrativo com peças para cada ambiente.</p>
+        </section>
+        <label for="search">Pesquisar produtos</label
+        ><input
+          class="field"
+          id="search"
+          placeholder="Buscar por nome ou categoria..."
+        />
+        <div aria-label="Filtros de produtos" class="filters">
+          <button class="filter selected" data-filter="todos">Todos</button
+          ><button class="filter" data-filter="Sala">Sala</button
+          ><button class="filter" data-filter="Quarto">Quarto</button
+          ><button class="filter" data-filter="Escritório">Escritório</button
+          ><button class="filter" data-filter="Decoração">Decoração</button>
+        </div>
+        <div class="grid">
+          <article class="card" data-category="Sala">
+            <div class="photo">
+              <img
+                alt="Fotografia ilustrativa de sofá aurora"
+                decoding="async"
+                loading="lazy"
+                src="assets/images/photo-1555041469-a586c61ea9bc.jpg"
+              />
+            </div>
+            <div class="cardbody">
+              <small class="eyebrow">Sala</small>
+              <h3>Sofá Aurora</h3>
+              <p>Peça conceitual para compor ambientes com personalidade.</p>
+              <p class="price">R$ 2.890*</p>
+            </div>
+          </article>
+          <article class="card" data-category="Sala">
+            <div class="photo">
+              <img
+                alt="Fotografia ilustrativa de poltrona serena"
+                decoding="async"
+                loading="lazy"
+                src="assets/images/photo-1567538096630-e0c55bd6374c.jpg"
+              />
+            </div>
+            <div class="cardbody">
+              <small class="eyebrow">Sala</small>
+              <h3>Poltrona Serena</h3>
+              <p>Peça conceitual para compor ambientes com personalidade.</p>
+              <p class="price">R$ 1.190*</p>
+            </div>
+          </article>
+          <article class="card" data-category="Sala">
+            <div class="photo">
+              <img
+                alt="Fotografia ilustrativa de mesa raízes"
+                decoding="async"
+                loading="lazy"
+                src="assets/images/photo-1499933374294-4584851497cc.jpg"
+              />
+            </div>
+            <div class="cardbody">
+              <small class="eyebrow">Sala</small>
+              <h3>Mesa Raízes</h3>
+              <p>Peça conceitual para compor ambientes com personalidade.</p>
+              <p class="price">R$ 1.790*</p>
+            </div>
+          </article>
+          <article class="card" data-category="Decoração">
+            <div class="photo">
+              <img
+                alt="Fotografia ilustrativa de luminária nuvem"
+                decoding="async"
+                loading="lazy"
+                src="assets/images/photo-1507473885765-e6ed057f782c.jpg"
+              />
+            </div>
+            <div class="cardbody">
+              <small class="eyebrow">Decoração</small>
+              <h3>Luminária Nuvem</h3>
+              <p>Peça conceitual para compor ambientes com personalidade.</p>
+              <p class="price">R$ 390*</p>
+            </div>
+          </article>
+          <article class="card" data-category="Decoração">
+            <div class="photo">
+              <img
+                alt="Fotografia ilustrativa de vaso orgânico"
+                decoding="async"
+                loading="lazy"
+                src="assets/images/photo-1578500494198-246f612d3b3d.jpg"
+              />
+            </div>
+            <div class="cardbody">
+              <small class="eyebrow">Decoração</small>
+              <h3>Vaso Orgânico</h3>
+              <p>Peça conceitual para compor ambientes com personalidade.</p>
+              <p class="price">R$ 180*</p>
+            </div>
+          </article>
+          <article class="card" data-category="Quarto">
+            <div class="photo">
+              <img
+                alt="Fotografia ilustrativa de cama horizonte"
+                decoding="async"
+                loading="lazy"
+                src="assets/images/photo-1505693416388-ac5ce068fe85.jpg"
+              />
+            </div>
+            <div class="cardbody">
+              <small class="eyebrow">Quarto</small>
+              <h3>Cama Horizonte</h3>
+              <p>Peça conceitual para compor ambientes com personalidade.</p>
+              <p class="price">R$ 3.490*</p>
+            </div>
+          </article>
+          <article class="card" data-category="Escritório">
+            <div class="photo">
+              <img
+                alt="Fotografia ilustrativa de mesa essencial"
+                decoding="async"
+                loading="lazy"
+                src="assets/images/photo-1497366754035-f200968a6e72.jpg"
+              />
+            </div>
+            <div class="cardbody">
+              <small class="eyebrow">Escritório</small>
+              <h3>Mesa Essencial</h3>
+              <p>Peça conceitual para compor ambientes com personalidade.</p>
+              <p class="price">R$ 890*</p>
+            </div>
+          </article>
+          <article class="card" data-category="Escritório">
+            <div class="photo">
+              <img
+                alt="Fotografia ilustrativa de estante forma"
+                decoding="async"
+                loading="lazy"
+                src="assets/images/photo-1594620302200-9a762244a156.jpg"
+              />
+            </div>
+            <div class="cardbody">
+              <small class="eyebrow">Escritório</small>
+              <h3>Estante Forma</h3>
+              <p>Peça conceitual para compor ambientes com personalidade.</p>
+              <p class="price">R$ 1.250*</p>
+            </div>
+          </article>
+          <article class="card" data-category="Decoração">
+            <div class="photo">
+              <img
+                alt="Fotografia ilustrativa de espelho arco"
+                decoding="async"
+                loading="lazy"
+                src="assets/images/photo-1616486338812-3dadae4b4ace.jpg"
+              />
+            </div>
+            <div class="cardbody">
+              <small class="eyebrow">Decoração</small>
+              <h3>Espelho Arco</h3>
+              <p>Peça conceitual para compor ambientes com personalidade.</p>
+              <p class="price">R$ 590*</p>
+            </div>
+          </article>
+        </div>
+        <p class="muted">
+          *Preços e produtos fictícios. Não há compras ou pagamentos neste site.
+        </p>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footergrid">
+          <div>
+            <a class="logo" href="index.html">casa<span>viva.</span></a>
+            <p>Design para viver melhor, todos os dias.</p>
+          </div>
+          <div>
+            <strong>Explore</strong>
+            <p>
+              <a href="produtos.html">Produtos</a> ·
+              <a href="ambientes.html">Ambientes</a> ·
+              <a href="contato.html">Contato</a>
+            </p>
+          </div>
+        </div>
+        <div class="footline">
+          <span>© 2026 CasaViva. Projeto fictício para portfólio.</span
+          ><a
+            href="https://github.com/JefersonAlvesrs"
+            rel="noopener noreferrer"
+            target="_blank"
+            >Desenvolvido por Jeferson Alves ↗</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
