@@ -2,9 +2,8 @@
 
 **Site institucional responsivo de uma marca fictícia de móveis e decoração**, desenvolvido com HTML5, CSS3 e JavaScript. O projeto possui quatro páginas interligadas, catálogo demonstrativo com busca e filtros, galeria de ambientes e formulário interativo.
 
-## 🔗 Demonstração
 
-A demonstração no GitHub Pages será adicionada após a publicação.
+🌐 **[Acessar CasaViva — GitHub Pages](https://jefersonalvesrs.github.io/CasaViva/)**
 
 ## ✨ Funcionalidades
 
